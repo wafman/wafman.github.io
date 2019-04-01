@@ -197,6 +197,7 @@ function questionSix(){
       userGuesses++;
       console.log(userAnswer + ' = user answer | ' + userGuesses + ' = user Guess');
       guessArrayq6.push(userAnswer);
+      break;
     }
     guessArrayq6.push(userAnswer);
   }
